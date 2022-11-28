@@ -1,0 +1,90 @@
+** start of HTML **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title id="title">Tribute page</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <main id="main">
+        <h1>Mahatma Gandhi</h1>
+        <p>Father of a great nation.</p>
+        <figure id="img-div">
+          <img 
+          id="image" 
+          src="https://cdn.pixabay.com/photo/2012/12/20/13/23/pacifist-71445_1280.jpg" 
+          alt="image of Mahatma Gandhi" ></img>
+          <figcaption 
+          id="img-caption">Mahatma Gandhi
+          </figcaption>
+          </figure>
+           <h2>
+             <em>Life from man to 'Mahatma'</em>
+             </h2>
+         
+          <ul>
+            <li><strong> Born</strong> on 2nd Oct 1869</li>
+            <li> Born in <strong>Porbandar</strong>, a small town on the western coast of India, in the state of Gujrat</li> 
+            <li>Also Known as Mohandas Karamchand Gandhi.</li>
+            <li> When a British school inspector came to examine the boys and set a spelling test. Mohandas made a mistake which the class teacher noticed. The latter motioned to him to copy the correct spelling from his neighbour's slate. Mohandas <strong>refused to take the hint</strong> and was later chided for his "stupidity". </li>
+            <li>Married at the age of thirteen, to <strong>Kasturbai</strong> who was also of the same age.</li>
+          </ul>
+          <h3 id="tribute-info">
+           If you wish to know <a id="tribute-link" 
+              href="https://www.mkgandhi.org/" target="_blank" >more on Father of India...</a>
+              </h3>
+          
+        </main>
+      </body>
+
+** end of HTML **
+
+** start of CSS **
+
+h1{
+  font-family: Arial black;
+  text-align: Center;
+  font-size: 30;
+}
+
+h2{
+  margin:0;
+  text-decoration:Underline;
+  text-align:center;
+}
+
+h3{
+  text-align:right;
+  font-size:15;
+  font-style:italic;
+}
+
+
+p{
+  text-align: center;
+  font: italic;
+}
+
+img{
+  Display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  
+}
+
+figcaption{
+  margin: 0 auto;
+}
+
+li{
+  margin:16px 0;
+  text: wrap;
+ 
+}
+
+** end of CSS **
+
